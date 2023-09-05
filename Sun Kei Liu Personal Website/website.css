@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(pictures/hongkong.jpg) no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+   .box{
+ 
+    border-radius: 20px;
+    width: 450px;
+    background: hsla(220, 42%, 24%, 0.47);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic'; 
+  }
+  .box-img{
+    border-radius: 20%;
+    width:  220px;
+    height: 200px;
+  }
+  .box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+  }
+  .box h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+  }
+  .box p{
+    text-align: justify;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+  }
+  .box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    transition: all ease-in-out 250ms;
+    padding: 15px;
+  }
+  .box li a:hover{
+    color: #b9b9b9;
+  } 
+ 
