@@ -8,6 +8,7 @@ body, html {
 }
 body{
     display:flex;
+    align-items: center;
     justify-content: center;
     background: url(pictures/hongkong.jpg) no-repeat;
     background-size: cover;
@@ -23,7 +24,6 @@ body{
   background: hsla(220, 42%, 24%, .7);
   padding: 40px;
   text-align: center;
-  margin-top: 15%;
   color: white;
   font-family: 'Century Gothic', sans-serif; 
 }
