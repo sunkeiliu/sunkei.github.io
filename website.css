@@ -1,15 +1,21 @@
-body{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+} 
+
+.main{
+    display:flex;
+
     background: url(pictures/hongkong.jpg) no-repeat;
-    background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
   }
    .box{
  
     border-radius: 20px;
-    width: 450px;
-    background: hsla(220, 42%, 24%, 1);
+    height: auto;
+    width: 420px;
+    background: hsla(220, 42%, 24%, .7);
     padding: 40px;
     text-align: center;
     margin: auto;
@@ -26,6 +32,7 @@ body{
     font-size: 40px;
     letter-spacing: 4px;
     font-weight: 100;
+    padding: 20px;
   }
   .box h5{
     font-size: 20px;
@@ -34,6 +41,7 @@ body{
   }
   .box p{
     text-align: justify;
+    padding: 20px;
   }
   ul{
     margin: 0;
