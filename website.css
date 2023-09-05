@@ -9,7 +9,7 @@ body{
  
     border-radius: 20px;
     width: 450px;
-    background: hsla(220, 42%, 24%, .7);
+    background: hsla(220, 42%, 24%, 1);
     padding: 40px;
     text-align: center;
     margin: auto;
